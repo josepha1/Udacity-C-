@@ -8,10 +8,10 @@
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "program": "C:/Users/josep/OneDrive/Desktop/GitHub_Repos/Udacity-C-/Introduction to the C++ Language",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "C:/Users/josep/OneDrive/Desktop/GitHub_Repos/Udacity-C-/Introduction to the C++ Language",
             "environment": [],
             "console": "externalTerminal"
         }
