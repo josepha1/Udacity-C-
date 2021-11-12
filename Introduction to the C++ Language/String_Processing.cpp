@@ -32,14 +32,23 @@ using std::cout;
 int main()
 {
     string a("1 2 3");
+    string b("1,2,3");
 
     istringstream my_stream(a);
+    istringstream my_stream2(b);
 
     int n;
+    char c;
+
+    while(my_stream2 >> n >> c)
+    {
+        cout << "That stream was successful: " << n << " " << c << "\n";
+    }
+    cout << "The stream has failed!" << "\n";
 
     while (my_stream >> n)
     {
         cout << "That stream was successful: " << n << "\n";
     }
-    cout << "The stream has faile." << "\n";
+    cout << "The stream has failed." << "\n";
 }
